@@ -1,0 +1,58 @@
+@charset "iso-8859-2";
+
+.table {
+  background-color: #EAEEF6;
+  border: 1px solid #666699;
+}
+
+body {
+  
+  background-color: #CAD5E7;
+  background-image: url('bateauLNM.png');
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Media query pour une largeur d'écran inférieure à 768px */
+@media screen and (max-width: 768px) {
+  body {
+    /* Ajoutez ici les styles spécifiques pour les écrans de moins de 768px */
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+h1 {
+  font-size: 24px;
+  color: #D2204D;
+}
+
+.Style2 {
+  font-size: 17px;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+}
+
+/* Ajoutez des règles de média query pour rendre la mise en page adaptable */
+
+@media screen and (max-width: 768px) {
+  /* Par exemple, pour les écrans jusqu'à 768px de largeur */
+  body {
+    margin-left: 20px; /* Réduire la marge gauche pour un meilleur ajustement */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  /* Par exemple, pour les écrans jusqu'à 480px de largeur (smartphones) */
+  body {
+    margin: 0; /* Réinitialiser les marges */
+    padding: 20px; /* Ajouter un espacement autour du contenu */
+  }
+}
